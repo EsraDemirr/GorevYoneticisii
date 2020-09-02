@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_day"
+            android:icon="@drawable/ic_today_black_24dp"
+            android:title="Gün" />
+        <item
+            android:id="@+id/nav_week"
+            android:icon="@drawable/ic_view_week_black_24dp"
+            android:title="Hafta" />
+        <item
+            android:id="@+id/nav_mouth"
+            android:icon="@drawable/ic_date_range_black_24dp"
+            android:title="Ay" />
+
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Paylaş" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Gönder" />
+        </menu>
+    </item>
+
+</menu>
